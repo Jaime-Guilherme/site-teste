@@ -101,3 +101,53 @@ footer {
   padding: 15px 0;
   margin-top: 40px;
 }
+
+.video-sobre {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.video-sobre h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.video-sobre video {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Responsivo ===== */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    section {
+        padding: 15px;
+        margin: 15px 10px;
+        border-radius: 6px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .whatsapp {
+        bottom: 15px;
+        right: 15px;
+        font-size: 22px;
+        padding: 12px;
+    }
+}
